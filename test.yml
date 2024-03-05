@@ -1,7 +1,0 @@
----
-- name: "Customizing Parrot"
-  hosts: localhost
-  connection: local
-  roles:
-    - role: "roles/configure-terminal"
-    - role: "roles/install-tools"

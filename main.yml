@@ -1,10 +1,7 @@
 ---
-- name: "Customizing Kali, Penetration Test edition"
+- name: "Customizing Kali"
   hosts: localhost
   connection: local
-  tasks:
-    - name: "Test Debug"
-      debug:
-        msg: "Hello World"
-
-
+  roles:
+    - role: "roles/configure-terminal"
+    - role: "roles/install-tools"

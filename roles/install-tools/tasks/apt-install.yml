@@ -19,7 +19,7 @@
       - exiftool
       - golang-go
       - jp
-      - gobuster
+     # - gobuster
       - seclists
       - feroxbuster
       - oscanner
@@ -29,6 +29,7 @@
       - kerberoast
       - html2text
       - exiftool
+      - ruby-dev
 
     state: latest
   become: true

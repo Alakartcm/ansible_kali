@@ -1,0 +1,7 @@
+---
+
+  - name: "Install Kerbrute"
+    shell: go install github.com/ropnop/kerbrute@master
+
+  - name: "Set Kerbrute alias"
+    shell: echo "alias kerbrute='/home/kali/go/bin/kerbrute'" | tee -a /home/kali/.zshrc
