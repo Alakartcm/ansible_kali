@@ -1,0 +1,10 @@
+---
+- name: "Customizing Kali, Penetration Test edition"
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: "Test Debug"
+      debug:
+        msg: "Hello World"
+
+

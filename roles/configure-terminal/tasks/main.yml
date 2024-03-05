@@ -1,0 +1,21 @@
+---
+# tasks file for configure-terminal
+- name: "Change font"
+  ini_file:
+    path: "/home/kali/.config/qterminal.org/qterminal.ini"
+    section: General
+    option: fontFamily
+    value: Hack
+- name: "change font size"
+  ini_file:
+    path: "/home/kali/.config/qterminal.org/qterminal.ini"
+    section: General
+    option: fontSize
+    value: 16
+- name: "change terminal color scheme"
+  ini_file:
+    path: "/home/kali/.config/qterminal.org/qterminal.ini"
+    section: General
+    option: colorScheme
+    value: GreenOnBlack
+
