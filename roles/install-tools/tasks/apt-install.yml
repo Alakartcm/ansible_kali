@@ -25,7 +25,7 @@
       - oscanner
       - sipvicious
       - tnscmd10g
-      - wkhtmltopdf
+      #- wkhtmltopdf
       - kerberoast
       - html2text
       - exiftool

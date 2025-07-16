@@ -17,6 +17,7 @@
       - ntpdate
       - flameshot
       - exiftool
+      - wkhtmltopdf
       
     state: latest
   become: true
