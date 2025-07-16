@@ -14,10 +14,10 @@
     name:
       - jq
       - pipx
-      - ntpdate
+      #- ntpdate
       - flameshot
       - exiftool
-      - wkhtmltopdf
+      #- wkhtmltopdf
       
     state: latest
   become: true
