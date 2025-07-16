@@ -14,7 +14,7 @@
     name:
       - jq
       - pipx
-      #- ntpdate
+      - ntpdate
       - flameshot
       - exiftool
       
