@@ -15,6 +15,7 @@
       - jq
       - pipx
       #- ntpdate
+      - chrony
       - flameshot
       - exiftool
       - golang-go
